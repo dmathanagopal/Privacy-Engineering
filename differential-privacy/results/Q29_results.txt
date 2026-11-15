@@ -1,0 +1,5 @@
+Q29 | Exponential Mechanism distortion comparison
+Definition: distortion = 1 - fraction of outputs matching the original dataset's modal education category.
+epsilon=0.5: original-mode rate=0.137; distortion=0.863
+epsilon=1.0: original-mode rate=0.243; distortion=0.757
+Distortion decreases in this regenerated run. Values are computed from the CSV outputs.

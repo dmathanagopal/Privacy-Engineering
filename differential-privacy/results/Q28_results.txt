@@ -1,0 +1,9 @@
+Q28 | Exponential mechanism | epsilon=1.0
+Original mode: HS-grad (10501)
+Original-mode selection rate: 0.243000
+Observed distortion: 0.757000
+Comparison | exact max log probability ratio | limit | exact result | empirical ratio (min 30/category)
+remove_most_frequent | 0.000052274 | 1.000000 | Pass | 0.405925 (9 categories)
+remove_second_most_frequent | 0.000080757 | 1.000000 | Pass | 0.464673 (9 categories)
+remove_least_frequent | 0.013934941 | 1.000000 | Pass | 0.402495 (9 categories)
+Empirical ratios are sample diagnostics only; exact ratios compare the mechanism distributions.

@@ -1,0 +1,6 @@
+Q22 | Laplace indistinguishability | epsilon=0.5
+Comparison | exact max log-density ratio | epsilon limit | exact result | empirical ratio (min 30/bin)
+remove_oldest | 0.368902731 | 0.500000 | Pass | 0.372493 (3 bins)
+remove_age26 | 0.131116391 | 0.500000 | Pass | 0.246904 (3 bins)
+remove_youngest | 0.000000000 | 0.500000 | Pass | 0.095645 (3 bins)
+Empirical ratios are diagnostics only; exact ratios compare the mechanism distributions for these query values.

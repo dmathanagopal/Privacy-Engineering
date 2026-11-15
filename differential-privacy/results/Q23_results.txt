@@ -1,0 +1,12 @@
+Q23 | Laplace mechanism and indistinguishability | epsilon=1.0
+Eligible records (age > 25): 26150
+Original mean age: 42.782256214
+Fixed-cohort sensitivity assumption: 0.0024474187
+Laplace scale: 0.0024474187
+MSE across 4,000 outputs: 0.00001925
+MAE across 4,000 outputs: 0.00346880
+Comparison | exact max log-density ratio | limit | exact result | empirical ratio (min 30/bin)
+remove_oldest | 0.737805461 | 1.000000 | Pass | 0.547043 (3 bins)
+remove_age26 | 0.262232781 | 1.000000 | Pass | 0.407980 (2 bins)
+remove_youngest | 0.000000000 | 1.000000 | Pass | 0.166691 (2 bins)
+Caution: age > 25 is a data-dependent filter; observed-n sensitivity is not a global sensitivity proof.

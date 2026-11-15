@@ -1,0 +1,5 @@
+Question Q29 | Exponential mechanism distortion | epsilon=1.0
+Original mode: HS-grad
+Original-dataset mode-selection rate: 0.243000
+Mode error rate / distortion = 1 - rate: 0.757000
+Distortion measured on the 1,000 original-dataset samples; neighboring datasets are retained in the CSV for comparison.

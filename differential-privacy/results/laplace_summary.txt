@@ -1,0 +1,21 @@
+epsilon=0.5
+eligible_count_original=26150
+original_mean_age=42.782256214
+sensitivity_assumption=(90-26)/n=0.0024474187
+laplace_scale=0.0048948375
+remove_oldest: exact_log_density_ratio=0.368902731; empirical_smoothed_log_ratio=1.386294; exact_comparison_pass=True
+remove_age26: exact_log_density_ratio=0.131116391; empirical_smoothed_log_ratio=1.609438; exact_comparison_pass=True
+remove_youngest: exact_log_density_ratio=0.000000000; empirical_smoothed_log_ratio=1.098612; exact_comparison_pass=True
+MSE_vs_original_query_across_4000_outputs=0.00005522
+MAE_vs_original_query_across_4000_outputs=0.00549551
+
+epsilon=1.0
+eligible_count_original=26150
+original_mean_age=42.782256214
+sensitivity_assumption=(90-26)/n=0.0024474187
+laplace_scale=0.0024474187
+remove_oldest: exact_log_density_ratio=0.737805461; empirical_smoothed_log_ratio=1.945910; exact_comparison_pass=True
+remove_age26: exact_log_density_ratio=0.262232781; empirical_smoothed_log_ratio=0.559616; exact_comparison_pass=True
+remove_youngest: exact_log_density_ratio=0.000000000; empirical_smoothed_log_ratio=0.559616; exact_comparison_pass=True
+MSE_vs_original_query_across_4000_outputs=0.00001925
+MAE_vs_original_query_across_4000_outputs=0.00346880

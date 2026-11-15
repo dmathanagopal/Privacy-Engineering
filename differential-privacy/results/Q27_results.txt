@@ -1,0 +1,6 @@
+Q27 | Exponential mechanism indistinguishability | epsilon=0.5
+Comparison | exact max log probability ratio | limit | exact result | empirical ratio (min 30/category)
+remove_most_frequent | 0.000029652 | 0.500000 | Pass | 0.464806 (14 categories)
+remove_second_most_frequent | 0.000043539 | 0.500000 | Pass | 0.550814 (14 categories)
+remove_least_frequent | 0.006862988 | 0.500000 | Pass | 0.355301 (14 categories)
+The second sample-based ratio may exceed epsilon in this finite run; this diagnostic is not a formal DP proof.

@@ -1,0 +1,17 @@
+epsilon=0.5
+utility=ln(1+count); sensitivity_delta_u=ln(2)
+modal_category=HS-grad; count=10501; second=Some-college (7291); least=Preschool (51)
+remove_most_frequent: exact_log_probability_ratio=0.000029652; empirical_smoothed_log_ratio=0.479573; exact_comparison_pass=True
+remove_second_most_frequent: exact_log_probability_ratio=0.000043539; empirical_smoothed_log_ratio=0.541597; exact_comparison_pass=True
+remove_least_frequent: exact_log_probability_ratio=0.006862988; empirical_smoothed_log_ratio=0.430783; exact_comparison_pass=True
+original_mode_selection_rate=0.137000
+observed_distortion_1_minus_mode_rate=0.863000
+
+epsilon=1.0
+utility=ln(1+count); sensitivity_delta_u=ln(2)
+modal_category=HS-grad; count=10501; second=Some-college (7291); least=Preschool (51)
+remove_most_frequent: exact_log_probability_ratio=0.000052274; empirical_smoothed_log_ratio=0.693147; exact_comparison_pass=True
+remove_second_most_frequent: exact_log_probability_ratio=0.000080757; empirical_smoothed_log_ratio=0.479573; exact_comparison_pass=True
+remove_least_frequent: exact_log_probability_ratio=0.013934941; empirical_smoothed_log_ratio=0.693147; exact_comparison_pass=True
+original_mode_selection_rate=0.243000
+observed_distortion_1_minus_mode_rate=0.757000

@@ -1,0 +1,11 @@
+Question Q28 | Exponential mechanism indistinguishability | epsilon=1.0
+Primary measure: exact maximum absolute log ratio between the mechanism's output probabilities on the original and neighboring datasets.
+Comparison | Exact privacy loss | Limit | Result
+Remove one most-frequent-category record | 0.000052274 | 1.000 | Pass
+Remove one second-most-frequent-category record | 0.000080757 | 1.000 | Pass
+Remove one least-frequent-category record | 0.013934941 | 1.000 | Pass
+
+Finite-sample smoothed log-ratio diagnostic (not a formal DP test):
+remove_most_frequent: 0.693147
+remove_second_most_frequent: 0.479573
+remove_least_frequent: 0.693147

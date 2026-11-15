@@ -1,0 +1,22 @@
+Empirical smoothed log-ratio diagnostic (minimum 30 observations in each retained bin/category).
+This is a sample-based diagnostic, not a formal DP proof.
+
+Laplace, epsilon=0.5
+oldest removed: log-ratio=0.372493; retained bins=3; empirical ratio <= epsilon: True
+age 26 removed: log-ratio=0.246904; retained bins=3; empirical ratio <= epsilon: True
+youngest removed: log-ratio=0.095645; retained bins=3; empirical ratio <= epsilon: True
+
+Laplace, epsilon=1.0
+oldest removed: log-ratio=0.547043; retained bins=3; empirical ratio <= epsilon: True
+age 26 removed: log-ratio=0.407980; retained bins=2; empirical ratio <= epsilon: True
+youngest removed: log-ratio=0.166691; retained bins=2; empirical ratio <= epsilon: True
+
+Exponential, epsilon=0.5
+most frequent removed: log-ratio=0.464806; retained bins=14; empirical ratio <= epsilon: True
+second-most frequent removed: log-ratio=0.550814; retained bins=14; empirical ratio <= epsilon: False
+least frequent removed: log-ratio=0.355301; retained bins=14; empirical ratio <= epsilon: True
+
+Exponential, epsilon=1.0
+most frequent removed: log-ratio=0.405925; retained bins=9; empirical ratio <= epsilon: True
+second-most frequent removed: log-ratio=0.464673; retained bins=9; empirical ratio <= epsilon: True
+least frequent removed: log-ratio=0.402495; retained bins=9; empirical ratio <= epsilon: True

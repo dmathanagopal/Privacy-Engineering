@@ -1,0 +1,12 @@
+Q21 | Laplace mechanism | epsilon=0.5
+Eligible records (age > 25): 26150
+Original mean age: 42.782256214
+Fixed-cohort sensitivity assumption: 0.0024474187
+Laplace scale: 0.0048948375
+MSE across 4,000 outputs: 0.00005522
+MAE across 4,000 outputs: 0.00549551
+Exact distribution-based privacy losses:
+remove_oldest: 0.368902731; limit=0.5; pass=True
+remove_age26: 0.131116391; limit=0.5; pass=True
+remove_youngest: 0.000000000; limit=0.5; pass=True
+Caution: the age > 25 filter is data-dependent; this observed-n sensitivity is not a global sensitivity proof.

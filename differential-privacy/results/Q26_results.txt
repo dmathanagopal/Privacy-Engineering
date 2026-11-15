@@ -1,0 +1,11 @@
+Q26 | Exponential Mechanism | epsilon=0.5
+Utility sensitivity delta_u=ln(2)=0.69314718
+Most frequent category: HS-grad (10501)
+Second most frequent: Some-college (7291)
+Least frequent: Preschool (51)
+Original mode-selection rate: 0.137000
+Observed distortion: 0.863000
+Exact distribution-based privacy losses:
+remove_most_frequent: 0.000029652; limit=0.5; pass=True
+remove_second_most_frequent: 0.000043539; limit=0.5; pass=True
+remove_least_frequent: 0.006862988; limit=0.5; pass=True

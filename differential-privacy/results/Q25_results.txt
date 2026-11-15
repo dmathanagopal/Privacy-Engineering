@@ -1,0 +1,7 @@
+Q25 | Exponential Mechanism design
+delta_u=ln(2)=0.69314718
+Most frequent: HS-grad (10501)
+Second most frequent: Some-college (7291)
+Least frequent: Preschool (51)
+Utility: u(D,r)=ln(1+count_D(r))
+Probability proportional to exp(epsilon*u(D,r)/(2*delta_u)).
